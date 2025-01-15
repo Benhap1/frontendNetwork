@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e58a8239-465f-46a5-b48d-9cdee5ef7aa5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/frontend-vue3-flow_51.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontnginx/server.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx-local.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/OpenSans-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/OpenSans-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/OpenSans-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/OpenSans-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/PressStart2P-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/svg/icon-arrow-bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/svg/logo-tech.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/svg/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-ExtraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-ExtraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/Exo20-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/fonts/OpenSans-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/admin/admin_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/admin/admin_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/admin/admin_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/admin/admin_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/admin/loader_error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/arrow__select.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/arrow__select_h.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/blocked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/delete-news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/friend-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/friend-blocked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/icon-clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/like-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/logo-admin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/no_cover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/padlock-unlock-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/password-eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/password-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/plus-avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/post-reactions/delight.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/post-reactions/funny.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/post-reactions/heart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/post-reactions/malice.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/post-reactions/sadness.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/post-reactions/wow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/push.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/security-system-unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/settings/push/birthdays.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/settings/push/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/settings/push/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/settings/push/friends.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/settings/push/messages.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/settings/push/post.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/settings/push/reviews.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/admin/comments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/admin/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/admin/moderators.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/admin/moderators.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/admin/posts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/admin/posts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/admin/statistics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/admin/statistics.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/admin/users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/admin/users.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/exit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/friends.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sidebar/settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/success-change-password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/success-forgot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/success-register.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/unblocked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/user/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/user/status_escp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/user/status_guru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/user/status_love.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/user/status_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/user/status_student.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/user/status_teacher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/user/user_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/img/user/user_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/AboutIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/ActionsShow.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/AddIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/ArrowBottom.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/AvatarIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/BlockedIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/ChangeIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/CommentIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/CopiedIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/DeleteIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/DeleteNewsIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/DoneCopied.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/EditIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/EmojiIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/EmojiIconComment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/GiftIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/HomeIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/IconBox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/LanguageIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/LikeIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/LoadPhoto.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/MainLogotype.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/OpenIndicator.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/PhoneIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/PlusIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/PostTimer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/ProgressTag.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/PushIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/ScrollIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/SearchIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/SharedAccount.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/ShowMore.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/StarIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/SubmitIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/ThemeIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/UnknowUser.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/CommentsIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/ExitIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/FriendsIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/ImIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/ModeratorsIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/NewsIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/PostsIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/ProfileIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/SettingsIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/SidebarIcons.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/StatisticsIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icons/sidebar/UsersIcon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-ExtraLight.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-ExtraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/Exo20-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-SemiBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/fonts/OpenSans-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/admin/admin_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/admin/admin_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/admin/admin_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/admin/admin_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/admin/loader_error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/arrow__select.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/arrow__select_h.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/blocked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/delete-news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/friend-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/friend-blocked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/icon-clear.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/like-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/logo-admin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/no_cover.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/padlock-unlock-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/password-eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/password-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/plus-avatar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/post-reactions/delight.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/post-reactions/funny.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/post-reactions/heart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/post-reactions/malice.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/post-reactions/sadness.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/post-reactions/wow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/push.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/security-system-unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/settings/push/birthdays.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/settings/push/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/settings/push/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/settings/push/friends.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/settings/push/messages.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/settings/push/post.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/settings/push/reviews.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/admin/comments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/admin/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/admin/moderators.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/admin/moderators.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/admin/posts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/admin/posts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/admin/statistics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/admin/statistics.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/admin/users.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/admin/users.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/exit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/friends.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/im.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sidebar/settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/success-change-password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/success-forgot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/success-register.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/unblocked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/user/admin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/user/status_escp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/user/status_guru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/user/status_love.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/user/status_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/user/status_student.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/user/status_teacher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/user/user_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/static/img/user/user_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/base/fonts.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/base/general.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/base/settings.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/base/vars.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/aside-filter-notification.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/aside-filter.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/avatar-img.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/btn.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/edit.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/form.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/friends/possible.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/inner-page.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/modal.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/news-add.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/push/block.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/search.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/search/filter.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/select.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/status.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/tooltip.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/components/user-info-form.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/main.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/pages/admin.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/pages/friends.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/pages/index.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/stylus/pages/profile.styl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AutoPaginator.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Comments/Add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Comments/Block.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Comments/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Comments/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorBlock.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormElements/CodeField.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormElements/ConfirmField.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormElements/EmailField.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormElements/NameField.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormElements/NumberField.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormElements/PasswordField.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormElements/PasswordFieldChange.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormElements/PasswordFieldChangeOld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormElements/PasswordRepeatField.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormElements/PasswordRepeatFieldChange.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormLayout/Footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormLayout/FormLayoutInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FormLayout/Language.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Friends/Block.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Friends/BlockSearch.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Friends/Search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Im/Chat.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Im/ChatMessage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Im/Dialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LikeComment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainLayout/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainLayout/Push.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MainLayout/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/News/Add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/News/AddForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/News/AddTags.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/News/Block.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PostReactions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Info.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Push/Block.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Push/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RealTimeUpdater.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RecommendFriend.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/All.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Block.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Filter/News.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Filter/Users.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/News.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Tabs.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Search/Users.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/Delete.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/Push.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/Security.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Settings/UserInfoForm/Block.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SpinnerComponents.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Theme/ChangeTheme.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UserPagination.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/WeatherBlock.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composables/usePhoneFormatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composables/useTranslations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directives/pattern.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directives/scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/directives/touppercase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/DeleteAccount.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/EmptyLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/FormLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/MainLayout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/AdminPanel/Administrators.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/AdminPanel/Comments.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/AdminPanel/Publications.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/AdminPanel/Sidebar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/AdminPanel/Users.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/Comments.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/Edit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/Likes.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/Moderators.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/Posts.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/SearchInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/SidebarStatistics.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/Statistics.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Admin/Users.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/ChangePassword.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/ChangePasswordSuccess.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/Forgot.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/ForgotSuccess.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/RegisterSuccess.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Auth/Registration.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Shift/ShiftEmail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Shift/ShiftEmailConfirm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Shift/ShiftEmailSuccess.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Shift/ShiftPassword.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/User/Friends.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/User/FriendsFind.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/User/Im.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/User/News.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/User/Profile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/User/ProfileId.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/User/Push.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/User/Search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/User/Settings.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugins/websocket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/dialogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/friends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/geo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/languages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/likes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/notifications.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/requests/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/modules/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/modules/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/modules/shift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings/btn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/settings/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/captcha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/auth/languages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/global/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/global/authors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/global/geo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/global/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/global/likes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/global/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/global/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/global/status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/global/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/global/storagePostPhoto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/profile/account.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/profile/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/profile/dialogs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/profile/feeds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/profile/friends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/profile/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/profile/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/profile/notifications.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/users/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/users/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/users/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/changeLocale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/createPagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/createQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getAuthor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/lang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/notifications.utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/translateWeather.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Benhap1"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Benhap1/frontendNetwork.git",
+    "accountId": "963ee812-1791-4600-b680-e26cfec1294e"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2rev0eW4ByCwSkHlKK9KJ0Jj84n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/network/Social network Skillbox/frontend-vue3-flow_51/frontend-vue3-flow_51",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e58a8239-465f-46a5-b48d-9cdee5ef7aa5" name="Changes" comment="" />
+      <created>1736932154769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736932154769</updated>
+      <workItem from="1736932199594" duration="3273000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
