@@ -4,12 +4,11 @@ module.exports = defineConfig({
   transpileDependencies: true,
 
   devServer: {
-    port: 3000, // Порт, на котором работает фронтенд
+    port: 3000,
     proxy: {
       '/api': {
-        target: 'http://localhost:8085', // Gateway-сервер
-        changeOrigin: true, // Изменяет Origin-заголовок для соответствия целевому серверу
-
+        target: 'http://localhost:8085',
+        changeOrigin: true,
       },
     },
   },
