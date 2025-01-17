@@ -1,7 +1,7 @@
 <template>
   <div class="form-layout__main">
     <div class="form-layout__logo">
-      <p>NETWORK 51</p>
+      <p>PrivNet</p>
     </div>
     <h1 class="form-layout__title">{{ translationsInfo.title }}</h1>
     <p class="form-layout__text">{{ translationsInfo.text }}</p>

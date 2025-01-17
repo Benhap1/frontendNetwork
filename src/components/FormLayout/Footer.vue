@@ -36,7 +36,7 @@
     </div>
 
     <span v-if="noUseContent" class="form-layout__footer-copyright">
-      © Copyright {{ year }} NETWORK 51.
+      © Copyright {{ year }} PrivNet.
     </span>
   </div>
 </template>

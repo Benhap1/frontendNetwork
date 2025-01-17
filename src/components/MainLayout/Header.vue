@@ -8,7 +8,7 @@
       <template v-if="!isAdminPage">
         <div class="main-layout__header-left">
           <div class="main-layout__logotype">
-            <p>NETWORK 51</p>
+            <p>PrivNet</p>
           </div>
           <form
             class="main-layout__search"
