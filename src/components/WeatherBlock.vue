@@ -170,7 +170,8 @@
         <span class="weather__temp">{{ weather.temp }}°C</span>
       </div>
       <div>
-        <div class="weather__window">{{ getNameByIdWeather[0]?.text || weather.description }}</div>
+<!--        <div class="weather__window">{{ getNameByIdWeather[0]?.text || weather.description }}</div>-->
+        <div class="weather__window">{{ weather.description }}</div>
         <div class="weather__humidity">
           {{ translationsLang.weatherHumidity }} {{ weather.humidity }}%
         </div>
